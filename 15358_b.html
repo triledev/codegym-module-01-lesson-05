@@ -9,12 +9,20 @@
 <style>
     table {
     font-family: arial, sans-serif;
+    background-color: ivory;
     border-collapse: collapse;
     }
     td, th {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
+    }
+    #table_title {
+        background-color: aquamarine;
+        color: cornflowerblue;
+    }
+    .description {
+        color: cadetblue;
     }
 </style>
 
@@ -23,13 +31,13 @@
 <table>
 
     <tr>
-        <th colspan="2">
+        <th colspan="2" id="table_title">
             <label for="title">ĐĂNG KÝ HỌC VIÊN</label>
         </th>
     </tr><!-- ĐĂNG KÝ HỌC VIÊN  -->
 
     <tr>
-        <td>
+        <td class="description">
             <label for="yourname">Họ và tên</label>
         </td>
         <td>
@@ -38,7 +46,7 @@
     </tr><!-- Họ và tên  -->
 
     <tr>
-        <td>
+        <td class="description">
             <label for="birthday">Ngày sinh</label>
         </td>
         <td>
@@ -48,7 +56,7 @@
 
 
     <tr>
-        <td>
+        <td class="description">
             <label for="gender">Giới tính</label>
         </td>
         <td>
@@ -60,7 +68,7 @@
     </tr><!-- Giới tính   -->
 
     <tr>
-        <td>
+        <td class="description">
             <label for="address">Địa chỉ</label>
         </td>
         <td>
@@ -69,7 +77,7 @@
     </tr><!-- Địa chỉ   -->
 
     <tr>
-        <td>
+        <td class="description">
             <label for="class"> Lớp </label>
         </td>
         <td>
@@ -80,7 +88,7 @@
     </tr><!-- Lớp  -->
     
     <tr>
-        <td>
+        <td class="description">
             <label for="email">Email</label>
         </td>
         <td>
@@ -89,7 +97,7 @@
     </tr><!-- Email  -->
     
     <tr>
-        <td>
+        <td class="description">
             <label for="phone">Điện thoại</label>
         </td>
         <td>
